@@ -1,4 +1,4 @@
-# YardStick SaaS Notes App
+# SaaS Notes App
 
 A modern SaaS application for managing notes with multi-tenant architecture, user roles, and subscription plans.
 
