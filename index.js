@@ -12,7 +12,7 @@ const app = express();
 app.use(cookieParser());  
 const port = process.env.PORT || 3000;
 app.use(cors({
-  origin: true,
+  origin: ['http://localhost:3000', 'https://saas-notes-one.vercel.app/'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
