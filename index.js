@@ -12,9 +12,7 @@ const app = express();
 app.use(cookieParser());  
 const port = process.env.PORT || 3000;
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend-domain.vercel.app' 
-    : 'http://localhost:3000',
+  origin: true,
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
