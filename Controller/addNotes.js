@@ -4,6 +4,7 @@ const tenent = require("../models/tenent");
 const User = require("../models/User");
 
 //This is first
+// this is s
 const addNotes = async (req,res)=>{
     try{
         const {email,title,content}=req.body;
