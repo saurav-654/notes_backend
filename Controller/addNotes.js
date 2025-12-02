@@ -3,7 +3,7 @@ const note = require("../models/note");
 const tenent = require("../models/tenent");
 const User = require("../models/User");
 
-//this is new function
+
 const addNotes = async (req,res)=>{
     try{
         const {email,title,content}=req.body;
